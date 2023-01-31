@@ -9,13 +9,13 @@ Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
-    System.Console.WriteLine("Первое число больше: {0} > {1}", a, b);
+    System.Console.WriteLine("Первое число больше : {0} > {1}", a, b);
 }
     else if (b > a)
     {
-         System.Console.WriteLine("Второе число больше: {0} < {1}", a, b);
+         System.Console.WriteLine("Второе число больше : {0} < {1}", a, b);
     }
     else 
     {
-        System.Console.WriteLine("Введены равные числа: {0} = {1}", a, b);    
+        System.Console.WriteLine("Введены равные числа : {0} = {1}", a, b);    
     }
